@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Business Website</title>
+  </head>
+  <body>
+    <form class="form" action="" method="get" name="theForm">
+        <div class="input-field">
+          <label for="name">Name</label>
+          <input type="text" id="username" name="username" />
+        </div>
+        <div class="input-field">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email"/>
+        </div>
+        <div class="input-field">
+          <label for="select-country">Select your country: </label>
+          <select name="country" id="select-country">
+            <option value="--select--">--select--</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="US">US</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Germany">Germany</option>
+          </select>
+          <button id="formBtn" >Send Details</button> 
+        </div>
+        <script src="script.js"></script>      
+  </body>
+</html>
